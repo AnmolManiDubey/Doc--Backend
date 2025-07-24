@@ -23,8 +23,6 @@ ENV HF_HOME=/app/cache
 ENV TORCH_HOME=/app/cache
 RUN /app/venv/bin/python -c "from sentence_transformers import SentenceTransformer; SentenceTransformer('all-MiniLM-L6-v2')"
 
----
-
 # ---------- Stage 2: Runtime ----------
 FROM python:3.12-slim
 
