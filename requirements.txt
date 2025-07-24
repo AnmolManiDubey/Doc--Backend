@@ -21,7 +21,7 @@ pypdfium2
 # Utils
 scikit-learn
 scipy
-numpy
+numpy<2
 requests
 tqdm
 
