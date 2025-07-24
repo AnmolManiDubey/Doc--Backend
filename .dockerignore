@@ -36,3 +36,20 @@ vector_db/
 *.pyo
 *.pyd
 .pytest_cache/
+# Don't send venv, node_modules, cache, frontend etc.
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.log
+renv/
+.env
+node_modules/
+frontend/
+*.md
+Dockerfile
+.dockerignore
+.git
+.gitignore
+tests/
