@@ -1,0 +1,26 @@
+cat > .gitignore <<EOF
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+renv/
+
+# Node.js
+node_modules/
+dist/
+build/
+
+# VSCode & system
+.vscode/
+.DS_Store
+
+# Vector DB / generated data
+vector_db/
+
+# Other
+.env
+*.sqlite3
+*.log
+EOF

@@ -1,0 +1,38 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python virtual environments
+venv/
+env/
+.venv/
+renv/
+
+# Node / frontend
+frontend/
+node_modules/
+*.log
+
+# IDE and system files
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# Build / dist folders
+build/
+dist/
+*.egg-info/
+
+# Uploaded documents or DBs
+uploads/
+vector_db/
+
+# Secrets
+.env
+
+# Compiled / cache
+*.pyo
+*.pyd
+.pytest_cache/
